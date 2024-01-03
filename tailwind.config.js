@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        "work": ['Work Sans', 'sans-serif']
+      },
       colors:{
         "bg-main": "hsl(275, 100%, 97%)",
         "font-col": "hsl(292, 42%, 14%)",

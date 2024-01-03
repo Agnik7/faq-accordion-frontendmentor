@@ -24,7 +24,7 @@ export default function Card() {
     <section className='z-50 w-full max-w-[37.5rem] rounded-[1rem] bg-white p-[2rem] pb-[1rem] shadow-lg'>
       <div className='flex gap-[2rem] text-[3rem] font-bold'>
         <img src={iconStar} alt="" />
-        <h1 className='text-header'>FAQs</h1>
+        <h1 className='font-work'>FAQs</h1>
       </div>
       {faq.map((item,index)=>(
         (index === 0)? <Accordion open key={index} question={item.question} answer={item.answer} />: <Accordion key={index} question={item.question} answer={item.answer} />

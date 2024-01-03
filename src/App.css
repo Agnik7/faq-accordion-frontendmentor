@@ -3,11 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.text-header{
-  font-family: 'Work Sans';
-}
-
 summary::after {
   width: 1.875rem;
   height: 1.875rem;
